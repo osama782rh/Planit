@@ -16,31 +16,33 @@ class _RegisterPageState extends State<RegisterPage> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
   Future<void> _register() async {
-    if (_formKey.currentState!.validate()) {
-      try {
-        UserCredential userCredential =
-            await _auth.createUserWithEmailAndPassword(
-          email: _emailController.text,
-          password: _passwordController.text,
-        );
-        print('User registered: ${userCredential.user?.email}');
-        // Rediriger vers le tableau de bord
-        Navigator.pushNamed(context, '/dashboard');
-      } on FirebaseAuthException catch (e) {
-        print('Registration error: ${e.message}');
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Registration error: ${e.message}')),
-        );
-      } catch (e) {
-        print('Unknown error: $e');
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Unknown error: $e')),
-        );
-      }
-    } else {
-      print('Form is not valid');
+  if (_formKey.currentState!.validate()) {
+    try {
+      print('Attempting to register user...');
+      UserCredential userCredential =
+          await _auth.createUserWithEmailAndPassword(
+        email: _emailController.text,
+        password: _passwordController.text,
+      );
+      print('User registered: ${userCredential.user?.email}');
+      // Rediriger vers le tableau de bord
+      Navigator.pushNamed(context, '/dashboard');
+    } on FirebaseAuthException catch (e) {
+      print('FirebaseAuthException: ${e.code} - ${e.message}');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Registration error: ${e.message}')),
+      );
+    } catch (e) {
+      print('Unknown error: $e');
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Unknown error: $e')),
+      );
     }
+  } else {
+    print('Form is not valid');
   }
+}
+
 
   @override
   Widget build(BuildContext context) {

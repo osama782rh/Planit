@@ -1,1 +1,28 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"planitagenda","appId":"1:254977956580:android:07c5542b246d40185f2af1","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"planitagenda","configurations":{"android":"1:254977956580:android:07c5542b246d40185f2af1","ios":"1:254977956580:ios:3e58f5fff8fb931a5f2af1","macos":"1:254977956580:ios:3e58f5fff8fb931a5f2af1","web":"1:254977956580:web:a2ed8b2e357536e05f2af1","windows":"1:254977956580:web:81c6c0f73903a0b95f2af1"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "planitagenda",
+          "appId": "1:254977956580:android:07c5542b246d40185f2af1",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "planitagenda",
+          "configurations": {
+            "android": "1:254977956580:android:07c5542b246d40185f2af1",
+            "ios": "1:254977956580:ios:3e58f5fff8fb931a5f2af1",
+            "macos": "1:254977956580:ios:3e58f5fff8fb931a5f2af1",
+            "web": "1:254977956580:web:a2ed8b2e357536e05f2af1",
+            "windows": "1:254977956580:web:81c6c0f73903a0b95f2af1"
+          }
+        }
+      }
+    }
+  },
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
