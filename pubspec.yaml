@@ -1,0 +1,30 @@
+name: planit
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.7.3
+  cloud_firestore: ^4.17.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/esiee_it.png
+    - assets/images/agenda.png
+    - assets/images/fond.jpeg
+
+
