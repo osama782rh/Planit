@@ -1,32 +1,13 @@
 {
   "project_info": {
-    "project_number": "254977956580",
-    "project_id": "planitagenda",
-    "storage_bucket": "planitagenda.appspot.com"
+    "project_number": "302461195077",
+    "project_id": "planit-b08e2",
+    "storage_bucket": "planit-b08e2.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:254977956580:android:ac430752e835e3565f2af1",
-        "android_client_info": {
-          "package_name": "com.esieeit.agenda"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyDCIWHfpTFUO-XDTC-3zlhSnXR2_W-hW3o"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:254977956580:android:07c5542b246d40185f2af1",
+        "mobilesdk_app_id": "1:302461195077:android:099b1c0f5df57d21fde42c",
         "android_client_info": {
           "package_name": "com.example.planit"
         }
@@ -34,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDCIWHfpTFUO-XDTC-3zlhSnXR2_W-hW3o"
+          "current_key": "AIzaSyB7GTYIqjdlMTo3W1HExKIQE2m5hrFqCbE"
         }
       ],
       "services": {

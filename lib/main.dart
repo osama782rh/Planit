@@ -9,6 +9,8 @@ import './pages/tasks/task_list_page.dart';
 import './pages/tasks/task_detail_page.dart';
 import './pages/tasks/task_edit_page.dart';
 import './pages/profile/profile_page.dart';
+import './pages/calendars/calendars_page.dart';
+import './pages/contacts/contacts.dart';
 import './data/init_data.dart';
 
 void main() async {
@@ -17,8 +19,8 @@ void main() async {
     options: DefaultFirebaseOptions.currentPlatform,
   );
 
-  final initData = InitData();
-  await initData.initialize();
+  //final initData = InitData();
+  //await initData.initialize();
 
   runApp(MyApp());
 }
@@ -34,10 +36,12 @@ class MyApp extends StatelessWidget {
         '/login': (context) => LoginPage(),
         '/register': (context) => RegisterPage(),
         '/dashboard': (context) => DashboardPage(),
-        '/tasks': (context) => TaskListPage(),
+        '/contacts': (context) => ContactsPage(),
+        '/task_list': (context) => TaskListPage(),
         '/task_detail': (context) => TaskDetailPage(),
         '/task_edit': (context) => TaskEditPage(),
         '/profile': (context) => ProfilePage(),
+        '/calendars': (context) => CalendarsPage(),
       },
     );
   }

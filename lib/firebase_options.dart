@@ -41,47 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyCHZ_AEzYW9pgJi6pOVKmQxLMkU0DMaKhQ',
-    appId: '1:254977956580:web:a2ed8b2e357536e05f2af1',
-    messagingSenderId: '254977956580',
-    projectId: 'planitagenda',
-    authDomain: 'planitagenda.firebaseapp.com',
-    storageBucket: 'planitagenda.appspot.com',
+    apiKey: 'AIzaSyDCYImeh9hpYWbLhPxXOgv6qHTKXW0t9SA',
+    appId: '1:302461195077:web:edc74f85df19bf4ffde42c',
+    messagingSenderId: '302461195077',
+    projectId: 'planit-b08e2',
+    authDomain: 'planit-b08e2.firebaseapp.com',
+    storageBucket: 'planit-b08e2.appspot.com',
+    measurementId: 'G-LB7FMSMV7Z',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDCIWHfpTFUO-XDTC-3zlhSnXR2_W-hW3o',
-    appId: '1:254977956580:android:07c5542b246d40185f2af1',
-    messagingSenderId: '254977956580',
-    projectId: 'planitagenda',
-    storageBucket: 'planitagenda.appspot.com',
+    apiKey: 'AIzaSyB7GTYIqjdlMTo3W1HExKIQE2m5hrFqCbE',
+    appId: '1:302461195077:android:099b1c0f5df57d21fde42c',
+    messagingSenderId: '302461195077',
+    projectId: 'planit-b08e2',
+    storageBucket: 'planit-b08e2.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAtgwJReM259dn4TySSKAmHAZWRuWIkNdI',
-    appId: '1:254977956580:ios:3e58f5fff8fb931a5f2af1',
-    messagingSenderId: '254977956580',
-    projectId: 'planitagenda',
-    storageBucket: 'planitagenda.appspot.com',
+    apiKey: 'AIzaSyAqNrRWMTr99j60CeNssQwYRwlUU8-gv0M',
+    appId: '1:302461195077:ios:5d7dd1d79e4809fcfde42c',
+    messagingSenderId: '302461195077',
+    projectId: 'planit-b08e2',
+    storageBucket: 'planit-b08e2.appspot.com',
     iosBundleId: 'com.example.planit',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAtgwJReM259dn4TySSKAmHAZWRuWIkNdI',
-    appId: '1:254977956580:ios:3e58f5fff8fb931a5f2af1',
-    messagingSenderId: '254977956580',
-    projectId: 'planitagenda',
-    storageBucket: 'planitagenda.appspot.com',
+    apiKey: 'AIzaSyAqNrRWMTr99j60CeNssQwYRwlUU8-gv0M',
+    appId: '1:302461195077:ios:5d7dd1d79e4809fcfde42c',
+    messagingSenderId: '302461195077',
+    projectId: 'planit-b08e2',
+    storageBucket: 'planit-b08e2.appspot.com',
     iosBundleId: 'com.example.planit',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyCHZ_AEzYW9pgJi6pOVKmQxLMkU0DMaKhQ',
-    appId: '1:254977956580:web:81c6c0f73903a0b95f2af1',
-    messagingSenderId: '254977956580',
-    projectId: 'planitagenda',
-    authDomain: 'planitagenda.firebaseapp.com',
-    storageBucket: 'planitagenda.appspot.com',
+    apiKey: 'AIzaSyDCYImeh9hpYWbLhPxXOgv6qHTKXW0t9SA',
+    appId: '1:302461195077:web:51fff2853d447d6cfde42c',
+    messagingSenderId: '302461195077',
+    projectId: 'planit-b08e2',
+    authDomain: 'planit-b08e2.firebaseapp.com',
+    storageBucket: 'planit-b08e2.appspot.com',
+    measurementId: 'G-PB2FR9XHFE',
   );
 
 }
